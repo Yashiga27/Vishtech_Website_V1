@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us — VISHTECH MX Sdn Bhd, Melaka</title>
+<meta name="description" content="Who we are, our mission and vision, core values, team, job opportunities, capabilities and the industries VISHTECH MX Sdn Bhd serves.">
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css?v=4">
+</head>
+<body>
+
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader__mark"><img src="img/logo-white.png" alt=""></div>
+</div>
+
+<header class="site-nav" id="siteNav">
+  <div class="site-nav__inner">
+    <a href="index.html" class="brand-mark" aria-label="VISHTECH MX Sdn Bhd home">
+      <img src="img/logo.png" class="brand-mark__dark" alt="VISHTECH MX Sdn Bhd">
+      <img src="img/logo-white.png" class="brand-mark__light" alt="" aria-hidden="true">
+    </a>
+
+    <nav class="site-nav__links" id="navLinks">
+      <button class="nav-close" id="navClose" aria-label="Close navigation">&times;</button>
+
+      <a href="index.html" data-bm="UTAMA">HOME</a>
+
+      <div class="nav-drop is-active">
+        <button class="nav-drop__trigger" type="button" aria-haspopup="true"><span data-bm="TENTANG KAMI">ABOUT US</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="nav-drop__panel">
+          <div class="nav-drop__col">
+            <h5 data-bm="Pengenalan">Introduction</h5>
+            <a href="about.html#profile" data-bm="Profil Kami">Our Profile</a>
+            <a href="about.html#mission" data-bm="Misi &amp; Visi">Mission &amp; Vision</a>
+            <a href="about.html#values" data-bm="Nilai Teras">Core Values</a>
+            <a href="about.html#team" data-bm="Pasukan Kami">Our Team</a>
+            <a href="about.html#jobs" data-bm="Peluang Pekerjaan">Job Opportunities</a>
+          </div>
+          <div class="nav-drop__col">
+            <h5 data-bm="Kenapa Pilih Kami">Why Choose Us</h5>
+            <a href="about.html#capabilities" data-bm="Keupayaan">Capabilities</a>
+            <a href="about.html#industries" data-bm="Industri Kami">Industries We Serve</a>
+          </div>
+          <div class="nav-drop__col">
+            <h5 data-bm="Dapatkan Sokongan">Get Support</h5>
+            <a href="contact.html#support" data-bm="Perpustakaan Pengetahuan">Knowledge Library</a>
+            <a href="contact.html#support" data-bm="Buka Tiket Sokongan">Open Support Ticket</a>
+            <a href="contact.html#support" data-bm="Tukar ke VISHTECH">Switch to VISHTECH</a>
+            <a href="contact.html#faq" data-bm="Soalan Lazim">FAQ</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-drop">
+        <button class="nav-drop__trigger" type="button" aria-haspopup="true"><span data-bm="PERKHIDMATAN">SERVICES</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="nav-drop__panel">
+          <div class="nav-drop__col">
+            <h5 data-bm="Penjenamaan">Branding</h5>
+            <a href="services.html#web-design" data-bm="Reka Bentuk Laman Web">Web Design Services</a>
+            <a href="services.html#ecommerce" data-bm="Reka Bentuk eDagang">eCommerce Design</a>
+            <a href="services.html#mobile" data-bm="Aplikasi Mudah Alih">Mobile Application</a>
+            <a href="services.html#corporate" data-bm="Penjenamaan Korporat">Corporate Branding</a>
+          </div>
+          <div class="nav-drop__col">
+            <h5 data-bm="Pemasaran">Marketing</h5>
+            <a href="services.html#marketing" data-bm="Pemasaran Digital (8 dalam 1)">Digital Marketing (8 in 1)</a>
+            <a href="services.html#marketing" data-bm="Pengoptimuman Enjin Carian (SEO)">Search Engine Optimization</a>
+            <a href="services.html#marketing" data-bm="Pemasaran Media Sosial (SMM)">Social Media Marketing</a>
+            <a href="services.html#marketing" data-bm="Penulisan Kandungan">Copywriting / Content</a>
+            <a href="services.html#marketing" data-bm="Pemasaran Video Viral">Viral Video Marketing</a>
+            <a href="services.html#marketing" data-bm="Iklan Berbayar">Paid Advertisement</a>
+          </div>
+          <div class="nav-drop__col">
+            <h5 data-bm="Sokongan">Support</h5>
+            <a href="services.html#domain" data-bm="Nama Domain (TLD / MYNIC)">Domain Names (TLD / MYNIC)</a>
+            <a href="services.html#hosting" data-bm="Hosting Kongsi / E-mel Korporat">Shared Hosting / Corporate E-Mail</a>
+            <a href="services.html#hosting" data-bm="Pelayan Khusus">Dedicated Server</a>
+            <a href="services.html#hosting" data-bm="Penjual Semula Hosting">Hosting Reseller</a>
+          </div>
+          <div class="nav-drop__col">
+            <h5 data-bm="Penyelenggaraan">Maintenance</h5>
+            <a href="services.html#maintenance" data-bm="Penyelenggaraan Laman Web">Website Maintenance</a>
+            <a href="services.html#maintenance" data-bm="Penyelenggaraan Aplikasi">App Maintenance</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="portfolio.html" data-bm="PORTFOLIO">PORTFOLIO</a>
+      <a href="deals.html" data-bm="TAWARAN">DEALS</a>
+      <a href="blog.html" data-bm="BLOG">BLOG</a>
+      <a href="contact.html" data-bm="HUBUNGI KAMI">CONTACT US</a>
+    </nav>
+
+    <div class="site-nav__actions">
+      <button type="button" class="lang-toggle" id="langToggle" data-lang-current="en" aria-label="Switch to Bahasa Malaysia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.6 4 6 4 9.5s-1.4 6.9-4 9.5c-2.6-2.6-4-6-4-9.5s1.4-6.9 4-9.5z"/></svg>
+        <span class="lang-toggle__code">EN</span>
+      </button>
+      <a href="contact.html" class="btn btn--ghost-nav" data-bm="Dapatkan Sebut Harga">Get a Free Quote</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+  <section class="page-hero">
+    <!-- Add img/hero-about.jpg -->
+    <img class="media-photo media-photo--dim" src="img/abt.png" alt="" onerror="this.style.display='none'">
+    <div class="page-hero__inner">
+      <span class="tagline">VISHTECH MX SDN BHD</span>
+      <h1 data-bm="Tentang VISHTECH">About VISHTECH</h1>
+      <p data-bm="Manusia dahulu, teknologi kemudian &mdash; kisah di sebalik pasukan dalaman kami.">People first, technology second — the story behind our in-house team.</p>
+    </div>
+  </section>
+
+<main id="top">
+
+  <!-- ===== WHO WE ARE ===== -->
+  <section class="profile-hero" id="profile">
+    <!-- Replace img/profile-bg.png with your own high-res photo any time -->
+    <img class="media-photo" src="img/abt1.png" alt="" onerror="this.style.display='none'">
+    <div class="profile-hero__scrim"></div>
+    <div class="profile-hero__card" data-reveal-fade>
+      <span class="tagline" data-bm="Siapa Kami">WHO WE ARE</span>
+      <h1 data-bm="Manusia Dahulu, <span>Teknologi Kemudian</span>">People First, <span>Technology Second</span></h1>
+      <p data-bm="Pada tahun 2008, <strong>VISHTECH (IP0273354-M)</strong> bermula sebagai pasukan perkhidmatan web yang kecil. Kini kami <strong>VISHTECH MX SDN. BHD. (1130235-V)</strong>, rakan kongsi dalaman 100% yang dipercayai oleh perniagaan di Melaka, Ipoh, Kuala Lumpur dan Johor Bahru.">In 2008, <strong>VISHTECH (IP0273354-M)</strong> started out as a small web services team. Today we're <strong>VISHTECH MX SDN. BHD. (1130235-V)</strong>, the 100% in-house partner trusted by businesses across Melaka, Ipoh, Kuala Lumpur and Johor Bahru.</p>
+      <div class="profile-hero__stats">
+        <div><strong>2008</strong><span data-bm="Ditubuhkan">Founded</span></div>
+        <div><strong>5</strong><span data-bm="Bandar dilayani">Cities served</span></div>
+        <div><strong>100%</strong><span data-bm="Pasukan dalaman">In-house team</span></div>
+      </div>
+      <div class="profile-hero__actions">
+        <a href="contact.html" class="btn btn--primary" data-bm="Hubungi Pasukan Kami <span class=&quot;btn__arrow&quot;>&rarr;</span>">Talk to Our Team <span class="btn__arrow">&rarr;</span></a>
+        <a href="portfolio.html" class="btn btn--outline-light" data-bm="Lihat Kerja Kami <span class=&quot;btn__arrow&quot;>&rarr;</span>">See Our Work <span class="btn__arrow">&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MISSION & VISION ===== -->
+  <section class="mv-section" id="mission">
+    <div class="mv-section__inner">
+      <div class="mv-card mv-card--mission" data-stagger>
+        <div class="mv-card__head">
+          <span class="mv-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="28" r="14" stroke="currentColor" stroke-width="2"/>
+              <circle cx="20" cy="28" r="8.4" stroke="currentColor" stroke-width="2"/>
+              <circle cx="20" cy="28" r="2.6" fill="currentColor"/>
+              <path d="M27 21L39.5 8.5M39.5 8.5h-8M39.5 8.5v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <h3 class="mv-card__title" data-bm="MISI">MISSION</h3>
+        </div>
+        <div class="mv-card__box">
+          <p data-bm="Misi kami adalah untuk bekerjasama rapat dengan pelanggan bagi membayangkan dan merealisasikan potensi eBusiness mereka dalam dunia teknologi maklumat yang mencabar.">Our mission is to work closely with our clients to envision and realize their eBusiness potential in the challenging universe of information technology.</p>
+        </div>
+        <div class="mv-card__deco" aria-hidden="true"><span class="mv-card__deco-bar"></span><span class="mv-card__deco-dot"></span><span class="mv-card__deco-dot"></span></div>
+      </div>
+
+      <div class="mv-card mv-card--vision" data-stagger>
+        <div class="mv-card__head">
+          <span class="mv-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 34c4-9 10-14 16-14 4 0 7.5 2 10 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="10" cy="34" r="3.6" fill="currentColor"/>
+              <circle cx="37" cy="15" r="7" stroke="currentColor" stroke-width="2"/>
+              <path d="M37 10.4v1.3M42.6 15h-1.3M31.4 15h1.3M40.7 11.3l-.9.9M33.9 18.1l-.9.9M40.7 18.7l-.9-.9M33.9 11.9l-.9-.9" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M35 20l-1 3h6l-1-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <h3 class="mv-card__title" data-bm="VISI">VISION</h3>
+        </div>
+        <div class="mv-card__box">
+          <p data-bm="&ldquo;Untuk menjadi penyedia <strong>PENYELESAIAN WEB INOVATIF</strong> yang terkemuka di rantau Asia-Pasifik, menyampaikan perkhidmatan web berkualiti tinggi secara konsisten dengan hasil yang luar biasa dan perkhidmatan pelanggan yang cemerlang.&rdquo;">&ldquo;To be the leading <strong>INNOVATIVE WEB SOLUTION</strong> provider in the Asia-Pacific region, delivering consistent high-quality web services with exceptional results and excellent customer service.&rdquo;</p>
+        </div>
+        <div class="mv-card__deco" aria-hidden="true"><span class="mv-card__deco-bar"></span><span class="mv-card__deco-dot"></span><span class="mv-card__deco-dot"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CORE VALUES + TEAM (glittery backdrop) ===== -->
+  <div class="showcase-panel">
+    <span class="sparkle" style="top:9%;left:6%;--sd:.1s"></span>
+    <span class="sparkle" style="top:22%;left:92%;--sd:1.4s"></span>
+    <span class="sparkle" style="top:14%;left:47%;--sd:.8s"></span>
+    <span class="sparkle" style="top:38%;left:18%;--sd:2.1s"></span>
+    <span class="sparkle" style="top:44%;left:76%;--sd:.4s"></span>
+    <span class="sparkle" style="top:58%;left:8%;--sd:1.8s"></span>
+    <span class="sparkle" style="top:64%;left:60%;--sd:.6s"></span>
+    <span class="sparkle" style="top:72%;left:35%;--sd:2.5s"></span>
+    <span class="sparkle" style="top:80%;left:88%;--sd:1.1s"></span>
+    <span class="sparkle" style="top:90%;left:52%;--sd:1.9s"></span>
+    <span class="sparkle" style="top:5%;left:70%;--sd:2.8s"></span>
+    <span class="sparkle" style="top:95%;left:20%;--sd:.9s"></span>
+
+  <section class="values-section" id="values">
+    <div class="services-section__head" style="text-align:center">
+      <span class="eyebrow eyebrow--light" data-reveal-fade data-bm="Nilai Teras">Core Values</span>
+      <h2 class="section-title section-title--center section-title--light" data-reveal-fade data-bm="Apa Yang VISH Bawa">What VISH Stands For</h2>
+    </div>
+    <div class="vish-rings" data-reveal-fade>
+      <div class="vish-ring-item vish-ring-item--1" data-stagger>
+        <div class="vish-ring vish-ring--v"><span>V</span></div>
+        <span class="vish-ring-item__stem" aria-hidden="true"></span>
+        <h3 data-bm="Serba Boleh">Versatile</h3>
+        <p data-bm="Kami menyediakan perkhidmatan cemerlang melebihi jangkaan pelanggan.">We provide excellent services beyond customer expectation.</p>
+      </div>
+      <div class="vish-ring-item vish-ring-item--2" data-stagger>
+        <div class="vish-ring vish-ring--i"><span>I</span></div>
+        <span class="vish-ring-item__stem" aria-hidden="true"></span>
+        <h3 data-bm="Inovatif">Innovative</h3>
+        <p data-bm="Kami meningkatkan kemahiran dan pengetahuan mengikut trend terkini.">We upgrade our skills and knowledge according to the latest trends.</p>
+      </div>
+      <div class="vish-ring-item vish-ring-item--3" data-stagger>
+        <div class="vish-ring vish-ring--s"><span>S</span></div>
+        <span class="vish-ring-item__stem" aria-hidden="true"></span>
+        <h3 data-bm="Sistematik">Systematic</h3>
+        <p data-bm="Kami merancang setiap aktiviti untuk mencapai kepuasan pelanggan.">We plan our activities to meet customer satisfaction.</p>
+      </div>
+      <div class="vish-ring-item vish-ring-item--4" data-stagger>
+        <div class="vish-ring vish-ring--h"><span>H</span></div>
+        <span class="vish-ring-item__stem" aria-hidden="true"></span>
+        <h3 data-bm="Kejujuran">Honesty</h3>
+        <p data-bm="Kami memberikan perkhidmatan yang ikhlas kepada pelanggan kami.">We provide a genuine service to our customers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== OUR TEAM ===== -->
+  <section class="team-section" id="team">
+    <div class="services-section__head" style="text-align:center">
+      <span class="eyebrow eyebrow--light" data-reveal-fade data-bm="Pasukan Kami">Our Team</span>
+      <h2 class="section-title section-title--center section-title--light" data-reveal-fade data-bm="Orang Di Sebalik Kerja Kami">The People Behind the Work</h2>
+    </div>
+    <div class="team-section__grid">
+      <div class="team-card" data-stagger>
+        <!-- Add img/team-managing-director.jpg -->
+        <div class="team-card__photo" style="background-image:url('img/team-managing-director.jpg')"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="16" cy="12" r="6"/><path d="M5 29c0-6.1 4.9-11 11-11s11 4.9 11 11"/></svg></div>
+        <h4 data-bm="Foto akan datang">Photo coming soon</h4>
+        <span data-bm="Pengarah Urusan">Managing Director</span>
+      </div>
+      <div class="team-card" data-stagger>
+        <!-- Add img/team-web-design.jpg -->
+        <div class="team-card__photo" style="background-image:url('img/team-web-design.jpg')"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="16" cy="12" r="6"/><path d="M5 29c0-6.1 4.9-11 11-11s11 4.9 11 11"/></svg></div>
+        <h4 data-bm="Foto akan datang">Photo coming soon</h4>
+        <span data-bm="Pasukan Reka Bentuk Web">Web Design Team</span>
+      </div>
+      <div class="team-card" data-stagger>
+        <!-- Add img/team-development.jpg -->
+        <div class="team-card__photo" style="background-image:url('img/team-development.jpg')"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="16" cy="12" r="6"/><path d="M5 29c0-6.1 4.9-11 11-11s11 4.9 11 11"/></svg></div>
+        <h4 data-bm="Foto akan datang">Photo coming soon</h4>
+        <span data-bm="Pasukan Pembangunan">Development Team</span>
+      </div>
+      <div class="team-card" data-stagger>
+        <!-- Add img/team-digital-marketing.jpg -->
+        <div class="team-card__photo" style="background-image:url('img/team-digital-marketing.jpg')"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="16" cy="12" r="6"/><path d="M5 29c0-6.1 4.9-11 11-11s11 4.9 11 11"/></svg></div>
+        <h4 data-bm="Foto akan datang">Photo coming soon</h4>
+        <span data-bm="Pasukan Pemasaran Digital">Digital Marketing Team</span>
+      </div>
+    </div>
+    <p class="team-section__note" data-bm="Foto pasukan akan dimuat naik sebaik sahaja gambar rasmi tersedia. Hanya kakitangan tetap disenaraikan di sini.">Team photos will be added here once the official pictures are ready. Permanent staff only.</p>
+  </section>
+  </div>
+  <!-- ===== JOB OPPORTUNITIES ===== -->
+  <section class="jobs-section" id="jobs">
+    <div class="jobs-section__inner">
+      <div>
+        <span class="eyebrow eyebrow--light" data-reveal-fade data-bm="Peluang Pekerjaan">Job Opportunities</span>
+        <h2 class="section-title section-title--light" data-reveal-fade data-bm="<span class=&quot;rule&quot;></span>Sertai Pasukan VISHTECH"><span class="rule"></span>Join the VISHTECH Team</h2>
+        <p data-reveal-fade data-bm="VISHTECH kini sedang mencari bakat baharu dan bersedia menerima mereka yang berminat untuk belajar dan meneroka bidang kami. Kami mengalu-alukan graduan baharu dan juga pelajar yang berminat menjalani latihan industri di VISHTECH.">VISHTECH is now hunting for fresh talent and is ready to take in those who have the passion to learn and explore our field. We welcome fresh graduates and also undergraduates who are interested in doing their industrial training at VISHTECH.</p>
+        <p data-reveal-fade data-bm="Jika anda berminat, jangan bertangguh. Sertai pasukan kami dan kami akan membawa anda ke peringkat seterusnya.">If you have the interest, then do not delay. Join our team and we will take you to the next level.</p>
+      </div>
+      <div class="jobs-section__card" data-stagger>
+        <h4 data-bm="Hantar resume anda">Send us your resume</h4>
+        <p data-bm="E-melkan resume terkini anda kepada:">Email us your updated resume to:</p>
+        <a class="mail" href="mailto:hr@vishtech.com.my">hr@vishtech.com.my</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CAPABILITIES ===== -->
+  <section class="values-section" id="capabilities">
+    <!-- Add img/capabilities-bg.jpg (or .png) here — it will appear as the section's background automatically -->
+    <img class="media-photo media-photo--dim" src="img/vish.webp" alt="" onerror="this.style.display='none'">
+    <div class="services-section__head" style="text-align:center">
+      <span class="eyebrow" data-reveal-fade data-bm="Keupayaan">Capabilities</span>
+      <h2 class="section-title section-title--center" data-reveal-fade data-bm="Apa Yang Kami Bawa ke Meja">What We Bring to the Table</h2>
+    </div>
+    <div class="cap-carousel" data-reveal-fade>
+      <button type="button" class="cap-carousel__arrow cap-carousel__arrow--prev" id="capPrev" aria-label="Scroll left">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg>
+      </button>
+
+      <div class="cap-carousel__track" id="capTrack">
+        <div class="cap-card" data-stagger>
+          <span class="cap-card__icon"><svg viewBox="0 0 32 32"><path d="M6 6h20v14H14l-6 5v-5H6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+          <h4 data-bm="Perundingan Percuma">Free Consultation</h4>
+          <p data-bm="Berbincang dengan kami tanpa sebarang kos. Harga kami berdasarkan kadar pasaran dan kami tidak pernah berkompromi dengan kualiti.">Sit down with us at no cost. Our prices are quoted based on market rates and we never compromise on quality.</p>
+        </div>
+        <div class="cap-card" data-stagger>
+          <span class="cap-card__icon"><svg viewBox="0 0 32 32"><circle cx="14" cy="14" r="8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 20l7 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+          <h4 data-bm="SEO Terbaik">Best SEO</h4>
+          <p data-bm="Kami boleh melakukan tetapan Pengoptimuman Enjin Carian terbaik supaya laman anda ditemui oleh orang yang mencarinya.">We can do the best Search Engine Optimization settings so your site is found by the people looking for it.</p>
+        </div>
+        <div class="cap-card" data-stagger>
+          <span class="cap-card__icon"><svg viewBox="0 0 32 32"><path d="M18 3L7 18h8l-1 11 11-15h-8l1-11z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+          <h4 data-bm="Tangkapan Pantas">Fast Capture</h4>
+          <p data-bm="Kami boleh memahami idea anda dengan pantas dan menterjemahkannya menjadi kod yang berfungsi.">We can quickly understand your idea and transform it into working code.</p>
+        </div>
+        <div class="cap-card" data-stagger>
+          <span class="cap-card__icon"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M16 4v4M16 24v4M4 16h4M24 16h4M8 8l3 3M21 21l3 3M24 8l-3 3M11 21l-3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+          <h4 data-bm="Penyesuaian">Customize</h4>
+          <p data-bm="Kami boleh menyesuaikan atau membangunkan apa jua jenis aplikasi web mengikut cara anda bekerja.">We can customise or develop any type of web application to fit the way you actually work.</p>
+        </div>
+        <div class="cap-card" data-stagger>
+          <span class="cap-card__icon"><svg viewBox="0 0 32 32"><path d="M4 22l7-8 5 5 5-7 7 9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <h4 data-bm="Sentiasa Terkini">Up-To-Date</h4>
+          <p data-bm="Kami boleh membangunkan laman web mengikut trend terkini yang ada di pasaran hari ini.">We can develop any latest-trend website available in the market today.</p>
+        </div>
+        <div class="cap-card" data-stagger>
+          <span class="cap-card__icon"><svg viewBox="0 0 32 32"><path d="M5 26h22M9 22V12M16 22V6M23 22v-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+          <h4 data-bm="Pulangan Pelaburan">ROI</h4>
+          <p data-bm="Kami sentiasa menyampaikan penyelesaian pemasaran dalam talian dengan Pulangan Pelaburan yang nyata.">We always deliver online marketing solutions with a real Return on Investment.</p>
+        </div>
+      </div>
+
+      <button type="button" class="cap-carousel__arrow cap-carousel__arrow--next" id="capNext" aria-label="Scroll right">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ===== INDUSTRIES WE SERVE ===== -->
+  <section class="industries-section" id="industries">
+    <div class="services-section__head" style="text-align:center">
+      <span class="eyebrow" data-reveal-fade data-bm="Industri Kami">Industries We Serve</span>
+      <h2 class="section-title section-title--center" data-reveal-fade data-bm="Industri Yang Kami Layani">Industries We Serve</h2>
+      <p class="section-lead section-lead--center" data-reveal-fade data-bm="Kami memahami industri anda, dan itu membantu pertumbuhan pesat perniagaan anda dengan strategi futuristik yang terbukti.">We understand your industry, which helps in the exponential growth of your business with proven futuristic strategies.</p>
+    </div>
+    <div class="industries-marquee" data-reveal-fade>
+      <div class="industries-marquee__track">
+        <!-- Set 1 — swap each background-image with your own photo, same file names -->
+        <div class="industry-frame" style="--tilt:-4deg">
+          <div class="industry-frame__photo" style="background-image:url('img/b2b.jpg')"></div>
+          <span class="industry-frame__label" data-bm="B2B (Perniagaan Kepada Perniagaan)">Business to Business</span>
+        </div>
+        <div class="industry-frame" style="--tilt:3deg">
+          <div class="industry-frame__photo" style="background-image:url('img/b2c.jpeg')"></div>
+          <span class="industry-frame__label" data-bm="B2C (Perniagaan Kepada Pengguna)">Business to Consumer</span>
+        </div>
+        <div class="industry-frame" style="--tilt:-3deg">
+          <div class="industry-frame__photo" style="background-image:url('img/edu.jpeg')"></div>
+          <span class="industry-frame__label" data-bm="Institusi Pendidikan">Educational</span>
+        </div>
+        <div class="industry-frame" style="--tilt:4deg">
+          <div class="industry-frame__photo" style="background-image:url('img/medical.jpeg')"></div>
+          <span class="industry-frame__label" data-bm="Pusat Perubatan">Medical Centers</span>
+        </div>
+        <div class="industry-frame" style="--tilt:-3deg">
+          <div class="industry-frame__photo" style="background-image:url('img/hotel.avif')"></div>
+          <span class="industry-frame__label" data-bm="Hotel">Hotels</span>
+        </div>
+        <div class="industry-frame" style="--tilt:3deg">
+          <div class="industry-frame__photo" style="background-image:url('img/rest.jpg')"></div>
+          <span class="industry-frame__label" data-bm="Restoran">Restaurants</span>
+        </div>
+        <div class="industry-frame" style="--tilt:-4deg">
+          <div class="industry-frame__photo" style="background-image:url('img/enter.jpg')"></div>
+          <span class="industry-frame__label" data-bm="Hiburan">Entertainment</span>
+        </div>
+        <div class="industry-frame" style="--tilt:3deg">
+          <div class="industry-frame__photo" style="background-image:url('img/travel.jpg')"></div>
+          <span class="industry-frame__label" data-bm="Agensi Pelancongan">Travel Agencies</span>
+        </div>
+        <div class="industry-frame" style="--tilt:-3deg">
+          <div class="industry-frame__photo" style="background-image:url('img/startup.avif')"></div>
+          <span class="industry-frame__label" data-bm="Syarikat Permulaan">Start Ups</span>
+        </div>
+        <!-- Set 2 — exact duplicate of Set 1, required for the seamless loop. Keep both sets in sync. -->
+        <!-- Set 1 — swap each background-image with your own photo, same file names -->
+        <div class="industry-frame" style="--tilt:-4deg">
+          <div class="industry-frame__photo" style="background-image:url('img/b2b.jpg')"></div>
+          <span class="industry-frame__label" data-bm="B2B (Perniagaan Kepada Perniagaan)">Business to Business</span>
+        </div>
+        <div class="industry-frame" style="--tilt:3deg">
+          <div class="industry-frame__photo" style="background-image:url('img/b2c.jpeg')"></div>
+          <span class="industry-frame__label" data-bm="B2C (Perniagaan Kepada Pengguna)">Business to Consumer</span>
+        </div>
+        <div class="industry-frame" style="--tilt:-3deg">
+          <div class="industry-frame__photo" style="background-image:url('img/edu.jpeg"></div>
+          <span class="industry-frame__label" data-bm="Institusi Pendidikan">Educational</span>
+        </div>
+        <div class="industry-frame" style="--tilt:4deg">
+          <div class="industry-frame__photo" style="background-image:url('img/medical.jpeg')"></div>
+          <span class="industry-frame__label" data-bm="Pusat Perubatan">Medical Centers</span>
+        </div>
+        <div class="industry-frame" style="--tilt:-3deg">
+          <div class="industry-frame__photo" style="background-image:url('img/hotel.avif')"></div>
+          <span class="industry-frame__label" data-bm="Hotel">Hotels</span>
+        </div>
+        <div class="industry-frame" style="--tilt:3deg">
+          <div class="industry-frame__photo" style="background-image:url('img/rest.jpg')"></div>
+          <span class="industry-frame__label" data-bm="Restoran">Restaurants</span>
+        </div>
+        <div class="industry-frame" style="--tilt:-4deg">
+          <div class="industry-frame__photo" style="background-image:url('img/enter.jpg')"></div>
+          <span class="industry-frame__label" data-bm="Hiburan">Entertainment</span>
+        </div>
+        <div class="industry-frame" style="--tilt:3deg">
+          <div class="industry-frame__photo" style="background-image:url('img/travel.jpg')"></div>
+          <span class="industry-frame__label" data-bm="Agensi Pelancongan">Travel Agencies</span>
+        </div>
+        <div class="industry-frame" style="--tilt:-3deg">
+          <div class="industry-frame__photo" style="background-image:url('img/startup.avif')"></div>
+          <span class="industry-frame__label" data-bm="Syarikat Permulaan">Start Ups</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="cta-band__inner">
+      <h2 data-bm="Bersedia untuk memulakan projek anda?">Ready to start your project?</h2>
+      <p data-bm="Ceritakan keperluan anda dan pasukan dalaman kami akan menyediakan sebut harga percuma tanpa sebarang ikatan.">Tell us what you need and our in-house team will put together a free, no-obligation quotation.</p>
+      <div class="cta-band__actions">
+        <a href="contact.html" class="btn btn--primary" data-bm="Dapatkan Sebut Harga Percuma <span class=&quot;btn__arrow&quot;>&rarr;</span>">Get a Free Quote <span class="btn__arrow">&rarr;</span></a>
+        <a href="tel:+60165541233" class="btn btn--outline-light" data-bm="Hubungi +6016-5541 233">Call +6016-5541 233</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer-section">
+  <div class="footer-section__inner">
+    <div class="footer-section__brand">
+      <a href="index.html" class="brand-mark brand-mark--footer">
+        <img src="img/logo-white.png" alt="VISHTECH MX Sdn Bhd">
+      </a>
+      <p data-bm="Menghubungkan perniagaan anda ke dunia digital sejak 2008.">Connecting your business to the digital world since 2008.</p>
+      <div class="footer-section__contact">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2C7.8 2 5 5 5 9c0 5.4 7 13 7 13s7-7.6 7-13c0-4-2.8-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          <span>1-2B, Jalan Delima Raya 1, Taman Delima Raya, 75150 Bukit Baru, Melaka.</span>
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5L12 13l8.5-6.5"/></svg>
+          <span><a href="mailto:sales@vishtech.com.my">sales@vishtech.com.my</a><br><a href="mailto:support@vishtech.com.my">support@vishtech.com.my</a></span>
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h3l1.5 4.5-2 1.5a11 11 0 006.5 6.5l1.5-2L21 15v3a2 2 0 01-2 2C10.7 20 4 13.3 4 5a2 2 0 012-2z"/></svg>
+          <span><a href="tel:+6063171287">+606-3171 287</a><br><a href="tel:+60165541233">+6016-5541 233</a><br><a href="tel:+60123191287">+6012-3191 287</a></span>
+        </div>
+      </div>
+      <div class="footer-section__socials">
+        <a href="https://www.facebook.com/vishtech/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8.2h2.75l.41-3.2h-3.16V7.5c0-.93.26-1.56 1.59-1.56h1.7V3.1C15.98 3.05 15 3 13.83 3c-2.44 0-4.11 1.49-4.11 4.22v2.36H6.96v3.2h2.76V21h3.78z"/></svg></a>
+        <a href="https://instagram.com/vishtech_webdesign" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-section__col">
+      <h4 data-bm="Syarikat">Company</h4>
+      <a href="index.html" data-bm="Utama">Home</a>
+      <a href="about.html" data-bm="Tentang Kami">About Us</a>
+      <a href="portfolio.html" data-bm="Portfolio">Portfolio</a>
+      <a href="deals.html" data-bm="Tawaran Hangat">Hot Deals</a>
+      <a href="about.html#team" data-bm="Pasukan Kami">Our Team</a>
+      <a href="contact.html" data-bm="Hubungi">Contact</a>
+    </div>
+
+    <div class="footer-section__col">
+      <h4 data-bm="Perkhidmatan">Services</h4>
+      <a href="services.html#web-design" data-bm="Reka Bentuk Laman Web">Web Design</a>
+      <a href="services.html#ecommerce" data-bm="eDagang">eCommerce</a>
+      <a href="services.html#mobile" data-bm="Aplikasi Mudah Alih">Mobile Apps</a>
+      <a href="services.html#marketing" data-bm="Pemasaran Digital">Digital Marketing</a>
+      <a href="services.html#corporate" data-bm="Penjenamaan Korporat">Corporate Branding</a>
+    </div>
+
+    <div class="footer-section__col">
+      <h4 data-bm="Sumber">Resources</h4>
+      <a href="contact.html#support" data-bm="Perpustakaan Pengetahuan">Knowledge Library</a>
+      <a href="about.html#profile" data-bm="Profil Syarikat">Company Profile</a>
+      <a href="blog.html" data-bm="Berita &amp; Acara">News &amp; Events</a>
+      <a href="contact.html#support" data-bm="Tukar ke VISHTECH">Switch to VISHTECH</a>
+      <a href="contact.html#faq" data-bm="Soalan Lazim">FAQ</a>
+    </div>
+
+    <div class="footer-section__col">
+      <h4 data-bm="Pakej">Packages</h4>
+      <a href="package-econo.html" data-bm="Econo Web Design">Econo Web Design</a>
+      <a href="package-premium.html" data-bm="Premium Web Design">Premium Web Design</a>
+      <a href="package-prestige.html" data-bm="Prestige Web Design">Prestige Web Design</a>
+      <a href="services.html#web-design" data-bm="Banding Pakej">Compare Packages</a>
+      <a href="deals.html" data-bm="Promosi Semasa">Current Promotions</a>
+    </div>
+  </div>
+  <div class="footer-section__bottom">&copy; 2026 VISHTECH MX SDN. BHD. (1130235-V). All Rights Reserved.</div>
+</footer>
+
+<div class="ai-chat__mascot-wrap">
+  <span class="ai-chat__bubble" id="aiChatBubble">Hi! Need help? 👋</span>
+  <button class="ai-chat__toggle" id="aiChatToggle" type="button" aria-label="Chat with VISHTECH" aria-expanded="false">
+    <span class="ai-chat__shadow"></span>
+    <picture>
+      <source srcset="img/mascot.webp" type="image/webp">
+      <img src="img/mascot-static.png" alt="VISHTECH mascot">
+    </picture>
+    <span class="ai-chat__toggle-dot"></span>
+  </button>
+</div>
+
+<div class="ai-chat__panel" id="aiChatPanel" role="dialog" aria-label="VISHTECH chat assistant">
+  <div class="ai-chat__head">
+    <img src="img/mascot-static.png" alt="">
+    <div class="ai-chat__head-info">
+      <strong>VISHTECH Assistant</strong>
+      <span>Usually replies right away</span>
+    </div>
+    <button class="ai-chat__close" id="aiChatClose" type="button" aria-label="Close chat">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="ai-chat__body" id="aiChatBody"></div>
+  <div class="ai-chat__quick" id="aiChatQuick">
+    <button type="button">Pricing</button>
+    <button type="button">Our services</button>
+    <button type="button">Talk to a human</button>
+    <button type="button" class="ai-chat__quick-wa" data-wa="1">Contact WhatsApp</button>
+  </div>
+  <form class="ai-chat__form" id="aiChatForm">
+    <input type="text" id="aiChatInput" placeholder="Type a message..." autocomplete="off">
+    <button type="submit" aria-label="Send">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l16-8L4 4v6l10 2-10 2v6z"/></svg>
+    </button>
+  </form>
+</div>
+
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="js/script.js?v=4"></script>
+<script>
+(function(){
+  var track=document.getElementById('capTrack');
+  var prev=document.getElementById('capPrev');
+  var next=document.getElementById('capNext');
+  if(!track||!prev||!next) return;
+  // one click = one full page of cards (4 on desktop, fewer on smaller screens)
+  function page(){
+    var gap=parseFloat(getComputedStyle(track).columnGap)||18;
+    var card=track.querySelector('.cap-card');
+    if(!card) return track.clientWidth;
+    var w=card.getBoundingClientRect().width+gap;
+    var per=Math.max(1, Math.round((track.clientWidth+gap)/w));
+    return w*per;
+  }
+  function sync(){
+    var max=track.scrollWidth-track.clientWidth-2;
+    prev.disabled = track.scrollLeft<=2;
+    next.disabled = track.scrollLeft>=max;
+  }
+  prev.addEventListener('click', function(){ track.scrollBy({left:-page(), behavior:'smooth'}); });
+  next.addEventListener('click', function(){ track.scrollBy({left:page(), behavior:'smooth'}); });
+  track.addEventListener('scroll', sync, {passive:true});
+  window.addEventListener('resize', sync);
+  sync();
+})();
+</script>
+</body>
+</html>
